@@ -82,14 +82,34 @@ body{
 }
 .separacao{
     background: #d9e3f2;
+    padding: 1%;
+    border-radius: 10px;
+    flex: 1;    
+    border-radius: 10px;
+    border-left: 5px solid #2e4a7d;
+}
+.separacao2{
+    background: #d9e3f2;
     padding: 20px;
     border-radius: 10px;
     flex: 1;    
     border-radius: 10px;
     border-left: 5px solid #2e4a7d;
-
+    margin-bottom: 15px;
+    display: flex;
+    list-style: none;
 }
-
+.valores{
+    background: white;
+    margin-bottom: 20px;
+    padding:35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+.valores h3{
+    margin-bottom: 15px;   
+}
 .secao4{
     background: white;
     margin-bottom: 20px;
@@ -110,4 +130,180 @@ body{
     border-radius: 6px;
     font-weight: 500; 
     color: #00ff0d;
+}
+
+.tabela{
+   width: 100%;
+   border-collapse: collapse; /* junta as bordas adjacentes, ficando uma só */
+   margin-top: 20px;
+   background-color: white; 
+}
+th, td { 
+    border-bottom:1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+th { 
+    background-color: #2a5298;
+    color: white;
+    text-transform: uppercase; /* dxa tudo maiusculo*/
+    font-size: 0.85rem;
+}
+.amarela{
+    width: 25px; 
+    height: 25px;
+    background-color: yellow;
+}
+.cinza{
+    width: 25px; 
+    height: 25px;
+    background-color: grey;
+}
+.laranja{
+    width: 25px; 
+    height: 25px;
+    background-color: orange;
+}
+.vermelho{
+    width: 25px; 
+    height: 25px;
+    background-color: red;
+}
+.preto{
+    width: 25px; 
+    height: 25px;
+    background-color: black;
+}
+.rosa{
+    width: 25px; 
+    height: 25px;
+    background-color: pink;
+}
+.roxa{
+    width: 25px; 
+    height: 25px;
+    background-color: purple;
+}
+.verde{
+    width: 25px; 
+    height: 25px;
+    background-color: green;
+}
+.vermelho{
+    width: 25px; 
+    height: 25px;
+    background-color: red;
+}
+.kit{
+  border: 3px dashed yellow;
+  border-radius: 15px;
+  padding: 20px;
+}
+.pontos{
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left
+}
+.tabela-pontos{
+   width: 100%;
+   border-collapse: collapse; /* junta as bordas adjacentes, ficando uma só */
+   margin-top: 20px;
+   background-color: white; 
+}
+.tabela-pontos th, td { 
+    border-bottom:1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+.tabela-pontos th { 
+    background-color: #2a5298;
+    color: white;
+    text-transform: uppercase; /* dxa tudo maiusculo*/
+    font-size: 0.85rem;
+}
+.suplemento{
+    background: white;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left
+}
+.suple{
+    background: #f2d9d9;
+    padding: 10px;
+    border-radius: 12px;
+    flex: 1;    
+    border-radius: 10px;
+    border-left: 5px solid #ff0000;   
+}
+.campanha{
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left
+}
+.letra{
+    color: orange;
+}
+.sangue{
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left   
+}
+.memorias{
+    background: white;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left    
+}
+.memo{
+    background: rgb(250, 250, 236);
+    padding: 10px;
+    border-radius: 12px;
+    flex: 1;    
+    border-radius: 10px;
+    border-left: 5px solid yellow;      
+}
+.acao-social{
+    background: white;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left       
+}
+.acao{
+    background: rgb(250, 250, 236);
+    padding: 10px;
+    border-radius: 12px;
+    flex: 1;    
+    border-radius: 10px;
+    border-left: 5px solid yellow;        
+}
+.prova-album{
+    background: white;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left    
+}
+.album{
+    background: rgb(250, 250, 236);
+    padding: 10px;
+    border-radius: 12px;
+    flex: 1;    
+    border-radius: 10px;
+    border-left: 5px solid yellow;       
 }
