@@ -1,0 +1,14 @@
+ .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.espaco{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #eef5ff;
+    border: 5px solid #1e3c72;
+    font-weight: bold;
+    margin-right: 1300px;
+    font-size: smaller;
+}    

@@ -1,0 +1,68 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Exercicios</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <section>
+            <h3>Calculadora da churrasqueira</h3>
+            <div>
+                <label> QTDE de pessoas</label>
+                <input type="number" id="qtdePessoas" value="0" min="0">
+            </div>
+            <button onclick="churras()">
+                Calcula Kgs de carne
+            </button>
+            <div class="espaco">
+                <p id="resultadoChurras">Total de carne 0 Kg</p>
+            </div>
+        </section>
+
+        <section>
+
+            <h3>Verificador do Estado Febril</h3>
+            <div>
+                <label>Temperatura</label>
+                <input type="number" id="temperatura" value="0" min="0">
+            </div>
+            <button onclick="febre()">Verifica</button>
+            <div class="espaco">
+                <p id="resultadoFebril">*</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Autorizador de crédito bancario</h3>
+            <div>
+                <label>Renda</label>
+                <input type="number" id="renda" value="0" min="0">
+            </div>
+            <div>
+                <label>Idade</label>
+                <input type="number" id="idade" value="0" min="0">
+            </div>
+            <button onclick="credito()">Verificar credito</button>
+            <div class="espaco">
+                <p id="resultadoCredito">*</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Seleção para competição do torneio</h3>
+            <div>
+                <label>Idade</label>
+                <input type="number" id="idadeCompeticao" value="0" min="0">
+            </div>
+            <div>
+                <label>Peso</label>
+                <input type="number" id="Peso" value="0" min="0">
+            </div>
+            <button onclick="torneio()">Verificar as classificações </button>
+            <div class="espaco">
+                <p id="resultadoTorneio">*</p>
+            </div>
+        </section>
+    </body> 
+</html>
