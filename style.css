@@ -470,3 +470,9 @@ button {
     /* Troque o #eee pela cor desejada (ex: purple, #7b2cbf, ou rgb) */
     border-bottom: 1px solid #7b2cbf;
 }
+footer a {
+    pointer-events: none; /* Desativa qualquer interação do mouse (clique) */
+    cursor: default;      /* Faz o mouse não virar a "mãozinha" */
+    text-decoration: none; /* Remove o sublinhado se desejar */
+    color: inherit;       /* Faz o link herdar a cor do texto normal */
+}
